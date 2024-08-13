@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import kr.co.uracle.framework.exception.CommonException;
+
 @Controller
 public class SampleController {
 
@@ -18,7 +20,12 @@ public class SampleController {
 	}
 
 	@RequestMapping(value = "/html")
-	public String index2 (@RequestParam String error) throws Exception {
-		return "home";
+	public String index2 (@RequestParam String[] name, @RequestParam String error) throws Exception {
+		if( !error.isEmpty() ){
+			throw new CommonException("ERROR_CODE_01", "강제 익셉션 테스트");
+		}
+		else{
+			return "home";
+		}
 	}
 }

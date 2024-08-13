@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "UracleFrameWork"
+  output:
+    ansi:
+      enabled: detect
