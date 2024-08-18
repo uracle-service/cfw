@@ -33,6 +33,11 @@ dependencies {
     implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0' //스프링부트 3.0 이상
     implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0' //스프링부트 3.0 이상
     implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1' //Error 스프링부트 3.0 이상
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'	//Mybatis 3.1.1을 사용.
+    implementation 'org.mybatis:mybatis:3.5.12' // 호환되는 최신 버전
+    implementation 'com.oracle.database.jdbc:ojdbc8'	//ojdbc8
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
+    implementation files('libs/orai18n.jar')
 
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
@@ -40,6 +45,49 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+
+// 환경별 JAR 빌드 설정 
+task buildJar(type: Jar) {
+    group = 'build'
+    description = 'Builds a JAR with the specified profile'
+    
+    archiveBaseName.set('cfw') // JAR 파일의 이름
+    archiveVersion.set('1.0.0') // JAR 파일의 버전
+//    manifest {
+//        attributes(
+//            'Implementation-Title': 'cfw',
+//            'Implementation-Version': version
+//        )
+//    }
+    
+    from sourceSets.main.output
+    configurations.runtimeClasspath.each { file ->
+        from zipTree(file)
+    }
+    
+    // Example of excluding signature files
+    exclude 'META-INF/*.SF'
+    exclude 'META-INF/*.DSA'
+    exclude 'META-INF/*.RSA'
+    
+    with jar
+    
+    // Handle duplicate entries
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE	//중복된 파일 제거.
 }
+
+
+//jar {
+//    archiveBaseName.set('cfw') // JAR 파일의 이름
+//    archiveVersion.set('1.0.0') // JAR 파일의 버전
+//    manifest {
+//        attributes(
+//            'Implementation-Title': 'cfw',
+//            'Implementation-Version': version
+//        )
+//    }
+//}
+
+//tasks.named('test') {
+//    useJUnitPlatform()
+//}
