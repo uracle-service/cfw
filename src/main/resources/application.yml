@@ -4,3 +4,13 @@ spring:
   output:
     ansi:
       enabled: detect
+
+AES:
+  default:
+    algorithm: AES/CBC/PKCS5Padding
+    key: aql201koer0123axz1sdk30z0-d1sssz
+    iv: wke221sxzxclqowa
+  test:
+    algorithm: AES/GCM/NoPadding
+    key: aql201koer0123axz1sdk30z0-d1sssz
+    iv: wke221sxzxclqowa
