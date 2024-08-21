@@ -28,4 +28,9 @@ public class SampleController {
 			return "home";
 		}
 	}
+	
+	@RequestMapping(value = "/home")
+	public String home() {
+		return "home";
+	}
 }
