@@ -4,11 +4,10 @@ spring:
   output:
     ansi:
       enabled: detect
-
   datasource:
-    url: ${DB_URL}?useUnicode=true&characterEncoding=AL32UTF8
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    url: jdbc:oracle:thin:@localhost:1523/DBTVDB?useUnicode=true&characterEncoding=AL32UTF8
+    username: BTVSMS
+    password: smsbtv6266!#
     driver-class-name: oracle.jdbc.OracleDriver
     hikari:
       maximum-pool-size: 10

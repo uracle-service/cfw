@@ -33,6 +33,11 @@ public class SampleController {
 		}
 	}
 
+	@RequestMapping(value = "/home")
+	public String home() {
+		return "home";
+	}
+
 
 	@RequestMapping(value = "/dechtml")
 	@ResponseBody
