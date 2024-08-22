@@ -1,4 +1,3 @@
-/*
 package kr.co.uracle.framework.configs.advice;
 
 import org.springframework.context.annotation.Bean;
@@ -14,4 +13,3 @@ public class AdviceConfig implements WebMvcConfigurer {
 		return new ResponseWrapper();
 	}
 }
-*/

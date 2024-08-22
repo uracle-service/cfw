@@ -54,6 +54,47 @@ dependencies {
 }
 
 
+// 환경별 JAR 빌드 설정 
+task buildJar(type: Jar) {
+    group = 'build'
+    description = 'Builds a JAR with the specified profile'
+    
+    archiveBaseName.set('cfw') // JAR 파일의 이름
+    archiveVersion.set('1.0.0') // JAR 파일의 버전
+//    manifest {
+//        attributes(
+//            'Implementation-Title': 'cfw',
+//            'Implementation-Version': version
+//        )
+//    }
+    
+    from sourceSets.main.output
+    configurations.runtimeClasspath.each { file ->
+        from zipTree(file)
+    }
+    
+    // Example of excluding signature files
+    exclude 'META-INF/*.SF'
+    exclude 'META-INF/*.DSA'
+    exclude 'META-INF/*.RSA'
+    
+    with jar
+    
+    // Handle duplicate entries
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE	//중복된 파일 제거.
+}
+
+
+//jar {
+//    archiveBaseName.set('cfw') // JAR 파일의 이름
+//    archiveVersion.set('1.0.0') // JAR 파일의 버전
+//    manifest {
+//        attributes(
+//            'Implementation-Title': 'cfw',
+//            'Implementation-Version': version
+//        )
+//    }
+//}
 
 //tasks.named('test') {
 //    useJUnitPlatform()

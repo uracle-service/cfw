@@ -6,6 +6,16 @@ spring:
   output:
     ansi:
       enabled: detect
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1523/DBTVDB?useUnicode=true&characterEncoding=AL32UTF8
+    username: BTVSMS
+    password: smsbtv6266!#
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
 
 AES:
   default:
