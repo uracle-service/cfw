@@ -10,6 +10,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import kr.co.uracle.framework.annotations.Decryption;
 import kr.co.uracle.framework.utils.cryptography.Cryptography;
+import kr.co.uracle.framework.utils.cryptography.DefaultAesUtil;
 
 @Component
 public class DecrptionConvertor implements ConditionalGenericConverter {
