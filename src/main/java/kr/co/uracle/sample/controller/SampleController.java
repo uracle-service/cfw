@@ -1,16 +1,16 @@
 package kr.co.uracle.sample.controller;
 
+import java.util.HashMap;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import kr.co.uracle.framework.annotations.Decryption;
 import kr.co.uracle.framework.exception.CommonException;
-import kr.co.uracle.framework.utils.cryptography.DefaultAesUtil;
 import kr.co.uracle.framework.utils.cryptography.TestAesUtil;
 
 @Controller
@@ -18,9 +18,11 @@ public class SampleController {
 
 	@GetMapping("/json")
 	@ResponseBody
-	public ResponseEntity index (@RequestParam(defaultValue = "World") String name) {
-		String msg = "Hello, %s!";
-		return ResponseEntity.ok(msg.formatted(name));
+	public HashMap<String, String> index (@RequestParam(defaultValue = "World") String name) {
+		HashMap<String, String> data = new HashMap<String, String>();
+		data.put("name", name);
+		data.put("aaa", "aaaData");
+		return data;
 	}
 
 	@RequestMapping(value = "/html")
