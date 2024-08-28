@@ -27,7 +27,13 @@ import kr.co.uracle.framework.exception.CommonException;
 @Aspect
 @Component
 public class LoggingAspects {
-	@Pointcut("within(kr.co.uracle.*.controller..*)")
+	//@Pointcut("within(kr.co.uracle.*.controller..*)") //이렇게 쓰면 kr.co.uracle 안에 있는놈만 되니까 아래처럼 어노테이션으로 변경
+	@Pointcut("@annotation(org.springframework.web.bind.annotation.RequestMapping) ||"
+		+ "@annotation(org.springframework.web.bind.annotation.GetMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.PostMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.PutMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.DeleteMapping)"
+	)
 	public void onRequest () {}
 
 	@Around("onRequest()")
