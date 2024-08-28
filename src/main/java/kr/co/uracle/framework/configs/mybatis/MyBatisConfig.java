@@ -4,8 +4,8 @@ import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -16,7 +16,8 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import kr.co.uracle.framework.model.MyBatisProperties;
 
 @Configuration
-@MapperScan(value = {"kr.co.uracle.*.mapper"})
+//@MapperScan(value = {"kr.co.uracle.*.mapper"})
+@MapperScan(basePackages="${mybatis.base-packages}")
 //@EnableConfigurationProperties(MyBatisProperties.class)
 public class MyBatisConfig {
 
