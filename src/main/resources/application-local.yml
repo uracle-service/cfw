@@ -26,21 +26,27 @@ AES:
     iv: wke221sxzxclqowa
 
 
-
 mybatis:
   mapper-locations: classpath:/mappers/**/*.xml
+  base-packages: 
+    - "kr.co.uracle.*.mapper"
+    - "kr.co.uracle.*.mapper2"
 server:
   tomcat:
     additional-tld-skip-patterns:
     - "*.jar"
 
+security:
+  token:
+    value: "token1"
+
+headerfilter:
+  decyptionMethod: "AES"
+  decyptionHeaders:
+    - "header1"
+    - "header2"
+    - "header3"
+  
 filter:
-  decryptionMappings:
-    - decryptionMethod: "SHA-512"
-      headers:
-        - "header1"
-        - "header2"
-    - decryptionMethod: "SHA-256"
-      headers:
-        - "header3"
-        - "header4"
+  tokenUrlPatterns: "/api/*"
+  headerUrlPatterns: "/*"

@@ -11,5 +11,8 @@
 <body>
 <h2>Hello!</h2>
 <div>aaa</div>
+
+<% String a = "test"; %>
+<%=a %>
 </body>
 </html>

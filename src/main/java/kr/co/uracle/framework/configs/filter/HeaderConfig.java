@@ -6,37 +6,39 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConfigurationProperties(prefix = "filter")
+@ConfigurationProperties(prefix = "headerfilter")
 public class HeaderConfig {
-
-	private List<DecryptionMapping> decryptionMappings;
-    
-	public List<DecryptionMapping> getDecryptionMappings() {
-		return decryptionMappings;
+	private String decyptionMethod;
+	private String decyptionType;
+	private List<String> decyptionHeaders;
+	
+	public String getDecyptionMethod() {
+		return decyptionMethod;
+	}
+	public void setDecyptionMethod(String decyptionMethod) {
+		this.decyptionMethod = decyptionMethod;
+	}
+	public String getDecyptionType() {
+		return decyptionType;
+	}
+	public void setDecyptionType(String decyptionType) {
+		this.decyptionType = decyptionType;
+	}
+	public List<String> getDecyptionHeaders() {
+		return decyptionHeaders;
+	}
+	public void setDecyptionHeaders(List<String> decyptionHeaders) {
+		this.decyptionHeaders = decyptionHeaders;
+	}
+	
+	@Override
+	public String toString() {
+		return "HeaderConfig [decyptionMethod=" + decyptionMethod + ", decyptionType=" + decyptionType
+				+ ", decyptionHeaders=" + decyptionHeaders + "]";
 	}
 
-	public void setDecryptionMappings(List<DecryptionMapping> decryptionMappings) {
-		this.decryptionMappings = decryptionMappings;
-	}
-
-	public static class DecryptionMapping {
-        private String decryptionMethod;
-        private List<String> headers;
-
-        public String getDecryptionMethod() {
-            return decryptionMethod;
-        }
-
-        public void setDecryptionMethod(String decryptionMethod) {
-            this.decryptionMethod = decryptionMethod;
-        }
-
-        public List<String> getHeaders() {
-            return headers;
-        }
-
-        public void setHeaders(List<String> headers) {
-            this.headers = headers;
-        }
-    }
+	
+	
+	
+	
 }
