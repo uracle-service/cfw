@@ -12,7 +12,15 @@
             <charset>${CONSOLE_LOG_CHARSET}</charset>
         </encoder>
     </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/catalina.out</file>
+        <encoder>
+            <pattern>[%X{URACLE-TRACE-ID:-}] ${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>${CONSOLE_LOG_CHARSET}</charset>
+        </encoder>
+    </appender>
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
     </root>
 </configuration>

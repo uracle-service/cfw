@@ -43,8 +43,4 @@ public class ApiResponse<T> {
 		return "ApiResponse [status=" + status + ", message=" + message + ", data=" + data.toString() + "]";
 	}
 
-	
-	
-	
-	
 }

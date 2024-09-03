@@ -1,3 +1,4 @@
+/*
 package kr.co.uracle.framework.configs.filter;
 
 import java.io.IOException;
@@ -20,18 +21,11 @@ import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletRequestWrapper;
 import jakarta.servlet.http.HttpServletResponse;
-import kr.co.uracle.framework.utils.cryptography.Cryptography;
 
 @Component("customHeaderFilter")
 public class HeaderFilter implements Filter {
-	private final String URACLE_TRACE_ID = "URACLE-TRACE-ID";
-
 	@Autowired
 	private HeaderConfig headerConfig;
-
-	@Autowired
-	@Qualifier("defaultAesUtil")
-	private Cryptography aesUtil;
 
 	@Value("${headerfilter.decyptionMethod}")
 	private String decyptionMethod;
@@ -67,19 +61,7 @@ public class HeaderFilter implements Filter {
 
 		//헤더로깅.
 		logRequestHeaders(requestWrapper);
-
-		String uracleTraceId = httpRequest.getHeader(URACLE_TRACE_ID);
-		if (null == uracleTraceId || "".equals(uracleTraceId)) {
-			uracleTraceId = UUID.randomUUID()
-								.toString();
-		}
-		MDC.put(URACLE_TRACE_ID, uracleTraceId);
-		try {
-			chain.doFilter(requestWrapper, response);
-		}
-		finally {
-			MDC.remove(uracleTraceId);
-		}
+		chain.doFilter(requestWrapper, response);
 
 
 	}
@@ -165,3 +147,4 @@ public class HeaderFilter implements Filter {
 	}
 
 }
+*/

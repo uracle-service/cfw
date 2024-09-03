@@ -17,17 +17,30 @@ spring:
       idle-timeout: 600000
       max-lifetime: 1800000
 
-AES:
-  default:
-    algorithm: AES/CBC/PKCS5Padding
-    key: aql201koer0123axz1sdk30z0-d1sssz
-    iv: wke221sxzxclqowa
-  test:
-    algorithm: AES/GCM/NoPadding
-    key: aql201koer0123axz1sdk30z0-d1sssz
-    iv: wke221sxzxclqowa
-
 server:
   tomcat:
     additional-tld-skip-patterns:
     - "*.jar"
+
+mybatis:
+  mapper-locations: classpath:/mappers/**/*.xml
+  base-packages: "kr.co.uracle.*.mapper"
+
+
+commons:
+  filter:
+    mdc:
+      enable: true #Http Request 요청에 대한 UUID 설정
+
+    customTokenFilter:
+      enable: true #Header 내 Token 정보 체크
+
+  aop:
+    logging:
+      enable: true #AOP 기본 로그 설정 true / false
+
+  swagger: #Swagger 기본 설정
+    enable: true
+    title: Uracle API
+    description: Uracle
+    version: alpha

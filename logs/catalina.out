@@ -1,0 +1,935 @@
+[] [32m2024-09-03 12:07:16.120[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 2248 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:07:16.122[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:07:16.156[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:07:16.157[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:07:16.157[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:07:16.157[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:07:17.683[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:07:17.695[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:07:17.697[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:07:17.698[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:07:17.761[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:07:17.761[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1604 ms
+[] [32m2024-09-03 12:07:18.508[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:07:18.530[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:07:18.550[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:07:18.557[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.829 seconds (process running for 3.365)
+[] [32m2024-09-03 12:07:34.228[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:07:34.228[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:07:34.229[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[] [32m2024-09-03 12:07:34.237[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.PageNotFound            [0;39m [2m:[0;39m No mapping for GET /
+[] [32m2024-09-03 12:07:34.243[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 No endpoint GET /.
+[] [32m2024-09-03 12:07:36.086[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 No static resource /favicon.ico.
+[] [32m2024-09-03 12:07:36.087[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Failure in @ExceptionHandler kr.co.uracle.framework.exception.GlobalExceptionHandler#OtherException(Exception, HttpServletRequest)
+
+java.lang.ClassCastException: class org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to class org.springframework.web.method.HandlerMethod (org.springframework.web.servlet.resource.ResourceHttpRequestHandler and org.springframework.web.method.HandlerMethod are in unnamed module of loader 'app')
+	at kr.co.uracle.framework.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:40)
+	at kr.co.uracle.framework.exception.GlobalExceptionHandler.OtherException(GlobalExceptionHandler.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:175)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1357)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[] [32m2024-09-03 12:07:36.111[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.b.a.w.s.error.BasicErrorController  [0;39m [2m:[0;39m [GET /error] | request: {request=org.apache.catalina.core.ApplicationHttpRequest@41aece4d} | response: <404 NOT_FOUND Not Found,{timestamp=Tue Sep 03 12:07:36 KST 2024, status=404, error=Not Found, trace=org.springframework.web.servlet.resource.NoResourceFoundException: No static resource /favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+, message=No static resource /favicon.ico., path=/favicon.ico},[]> | time: 2 ms
+[] [32m2024-09-03 12:07:36.128[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: {timestamp=Tue Sep 03 12:07:36 KST 2024, status=404, error=Not Found, trace=org.springframework.web.servlet.resource.NoResourceFoundException: No static resource /favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+, message=No static resource /favicon.ico., path=/favicon.ico}
+[] [32m2024-09-03 12:07:45.552[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Required request parameter 'name' for method parameter type String is not present
+[] [32m2024-09-03 12:07:45.564[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Required request parameter 'name' for method parameter type String is not present]
+[] [32m2024-09-03 12:07:51.093[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: <200 OK OK,Hello, 123!,[]> | time: 1 ms
+[] [32m2024-09-03 12:07:51.094[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data=Hello, 123!]
+[] [32m2024-09-03 12:07:51.094[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')
+[] [32m2024-09-03 12:07:51.095[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')]
+[] [32m2024-09-03 12:08:08.725[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: <200 OK OK,Hello, 123!,[]> | time: 0 ms
+[] [32m2024-09-03 12:08:08.726[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data=Hello, 123!]
+[] [32m2024-09-03 12:08:08.726[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')
+[] [32m2024-09-03 12:08:08.728[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')]
+[] [32m2024-09-03 12:08:08.742[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 No static resource /favicon.ico.
+[] [32m2024-09-03 12:08:08.742[0;39m [33m WARN[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Failure in @ExceptionHandler kr.co.uracle.framework.exception.GlobalExceptionHandler#OtherException(Exception, HttpServletRequest)
+
+java.lang.ClassCastException: class org.springframework.web.servlet.resource.ResourceHttpRequestHandler cannot be cast to class org.springframework.web.method.HandlerMethod (org.springframework.web.servlet.resource.ResourceHttpRequestHandler and org.springframework.web.method.HandlerMethod are in unnamed module of loader 'app')
+	at kr.co.uracle.framework.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:40)
+	at kr.co.uracle.framework.exception.GlobalExceptionHandler.OtherException(GlobalExceptionHandler.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:175)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1357)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[] [32m2024-09-03 12:08:08.744[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mo.s.b.a.w.s.error.BasicErrorController  [0;39m [2m:[0;39m [GET /error] | request: {request=org.apache.catalina.core.ApplicationHttpRequest@2c853cd8} | response: <404 NOT_FOUND Not Found,{timestamp=Tue Sep 03 12:08:08 KST 2024, status=404, error=Not Found, trace=org.springframework.web.servlet.resource.NoResourceFoundException: No static resource /favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+, message=No static resource /favicon.ico., path=/favicon.ico},[]> | time: 1 ms
+[] [32m2024-09-03 12:08:08.744[0;39m [32m INFO[0;39m [35m2248[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: {timestamp=Tue Sep 03 12:08:08 KST 2024, status=404, error=Not Found, trace=org.springframework.web.servlet.resource.NoResourceFoundException: No static resource /favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+, message=No static resource /favicon.ico., path=/favicon.ico}
+[] [32m2024-09-03 12:09:12.163[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 11752 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:09:12.166[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:09:12.202[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:09:12.202[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:09:12.202[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:09:12.202[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:09:13.309[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:09:13.321[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:09:13.323[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:09:13.324[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:09:13.390[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:09:13.391[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1188 ms
+[] [32m2024-09-03 12:09:14.160[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:09:14.182[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:09:14.202[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:09:14.209[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.405 seconds (process running for 2.908)
+[] [32m2024-09-03 12:09:19.912[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:09:19.912[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:09:19.913[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[] [32m2024-09-03 12:09:19.950[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: <200 OK OK,Hello, 123!,[]> | time: 2 ms
+[] [32m2024-09-03 12:09:19.963[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data=Hello, 123!]
+[] [32m2024-09-03 12:09:19.965[0;39m [33m WARN[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')
+[] [32m2024-09-03 12:09:19.987[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')]
+[] [32m2024-09-03 12:11:39.017[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: <200 OK OK,Hello, 123!,[]> | time: 0 ms
+[] [32m2024-09-03 12:11:39.018[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data=Hello, 123!]
+[] [32m2024-09-03 12:11:39.019[0;39m [33m WARN[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')
+[] [32m2024-09-03 12:12:27.934[0;39m [32m INFO[0;39m [35m11752[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')]
+[] [32m2024-09-03 12:12:52.310[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 4196 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:12:52.312[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:12:52.344[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:12:52.344[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:12:52.345[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:12:52.345[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:12:53.482[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:12:53.492[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:12:53.493[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:12:53.493[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:12:53.571[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:12:53.571[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1226 ms
+[] [32m2024-09-03 12:12:54.390[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:12:54.411[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:12:54.430[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:12:54.437[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.483 seconds (process running for 3.004)
+[] [32m2024-09-03 12:13:07.585[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:13:07.585[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:13:07.586[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[] [32m2024-09-03 12:13:07.625[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: <200 OK OK,Hello, 123!,[]> | time: 1 ms
+[] [32m2024-09-03 12:13:07.639[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data=Hello, 123!]
+[] [32m2024-09-03 12:13:07.640[0;39m [33m WARN[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')
+[] [32m2024-09-03 12:13:18.551[0;39m [32m INFO[0;39m [35m4196[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=class kr.co.uracle.framework.model.ApiResponse cannot be cast to class java.lang.String (kr.co.uracle.framework.model.ApiResponse is in unnamed module of loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader @17e3fd46; java.lang.String is in module java.base of loader 'bootstrap')]
+[] [32m2024-09-03 12:14:22.863[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 15208 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:14:22.865[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:14:22.899[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:14:22.899[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:14:22.899[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:14:22.899[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:14:24.105[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:14:24.122[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:14:24.124[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:14:24.124[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:14:24.208[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:14:24.208[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1308 ms
+[] [32m2024-09-03 12:14:25.136[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:14:25.168[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:14:25.193[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:14:25.199[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.731 seconds (process running for 3.256)
+[] [32m2024-09-03 12:14:28.391[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:14:28.391[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:14:28.392[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[] [32m2024-09-03 12:14:28.446[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 1 ms
+[] [32m2024-09-03 12:14:28.472[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:15:02.472[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:15:02.473[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:15:19.175[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:15:19.176[0;39m [32m INFO[0;39m [35m15208[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:47.061[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 15908 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:16:47.063[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:16:47.098[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:16:47.098[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:16:47.098[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:16:47.098[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:16:48.177[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:16:48.184[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:16:48.186[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:16:48.186[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:16:48.260[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:16:48.260[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1161 ms
+[] [32m2024-09-03 12:16:49.005[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:16:49.025[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:16:49.043[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:16:49.050[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.364 seconds (process running for 2.936)
+[] [32m2024-09-03 12:16:56.064[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:16:56.064[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:16:56.066[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[] [32m2024-09-03 12:16:56.119[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:56.146[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:58.546[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:58.547[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:58.792[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:58.793[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:59.057[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:59.058[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:59.330[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:59.332[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:16:59.574[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.s.controller.SampleController     [0;39m [2m:[0;39m [GET /dechtml] | request: {name=123} | response: {aaa=Hello, 123!} | time: 0 ms
+[] [32m2024-09-03 12:16:59.574[0;39m [32m INFO[0;39m [35m15908[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=0000, message=Success, data={aaa=Hello, 123!}]
+[] [32m2024-09-03 12:20:08.700[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 5832 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 12:20:08.702[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 12:20:08.740[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 12:20:08.740[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 12:20:08.740[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 12:20:08.740[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 12:20:10.073[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 12:20:10.087[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:20:10.088[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 12:20:10.089[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 12:20:10.154[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 12:20:10.154[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1413 ms
+[] [32m2024-09-03 12:20:13.502[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 12:20:13.529[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 12:20:13.553[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 12:20:13.561[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 5.262 seconds (process running for 5.806)
+[] [32m2024-09-03 12:20:19.095[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 12:20:19.095[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 12:20:19.097[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[] [32m2024-09-03 12:20:31.696[0;39m [33m WARN[0;39m [35m5832[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[] [32m2024-09-03 12:20:32.941[0;39m [32m INFO[0;39m [35m5832[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]
+[] [32m2024-09-03 15:11:53.035[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 16448 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:11:53.038[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:11:53.352[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:11:53.353[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:11:53.353[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:11:53.353[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:11:54.732[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:11:54.741[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:11:54.743[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:11:54.743[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:11:54.821[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:11:54.821[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1467 ms
+[] [32m2024-09-03 15:12:18.719[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:12:18.741[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:12:18.761[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:12:18.768[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 26.152 seconds (process running for 26.843)
+[] [32m2024-09-03 15:13:56.619[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:13:56.619[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:13:56.621[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[] [32m2024-09-03 15:14:06.388[0;39m [33m WARN[0;39m [35m16448[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[] [32m2024-09-03 15:14:06.888[0;39m [32m INFO[0;39m [35m16448[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]
+[] [32m2024-09-03 15:29:17.883[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 1900 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:29:17.885[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:29:17.919[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:29:17.919[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:29:17.919[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:29:17.919[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:29:19.005[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:29:19.014[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:29:19.015[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:29:19.015[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:29:19.084[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:29:19.085[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1165 ms
+[] [32m2024-09-03 15:29:19.089[0;39m [31mERROR[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.web.embedded.tomcat.TomcatStarter [0;39m [2m:[0;39m Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'filterConfig': Injection of autowired dependencies failed
+[] [32m2024-09-03 15:29:19.110[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[] [32m2024-09-03 15:29:19.146[0;39m [33m WARN[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+[] [32m2024-09-03 15:29:19.153[0;39m [32m INFO[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[] [32m2024-09-03 15:29:19.178[0;39m [31mERROR[0;39m [35m1900[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.co.uracle.UracleFrameworkApplication.main(UracleFrameworkApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:97)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'filter.tokenUrlPatterns' in value "${filter.tokenUrlPatterns}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 65 common frames omitted
+
+[] [32m2024-09-03 15:35:36.590[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 3340 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:35:36.593[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:35:36.639[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:35:36.639[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:35:36.639[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:35:36.639[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:35:37.829[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:35:37.839[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:35:37.840[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:35:37.840[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:35:37.918[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:35:37.919[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1279 ms
+[] [32m2024-09-03 15:35:37.930[0;39m [31mERROR[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.web.embedded.tomcat.TomcatStarter [0;39m [2m:[0;39m Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'filterConfig': Unsatisfied dependency expressed through field 'tokenFilter': No qualifying bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[] [32m2024-09-03 15:35:37.964[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[] [32m2024-09-03 15:35:38.000[0;39m [33m WARN[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+[] [32m2024-09-03 15:35:38.006[0;39m [32m INFO[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[] [32m2024-09-03 15:35:38.024[0;39m [31mERROR[0;39m [35m3340[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tokenFilter in kr.co.uracle.framework.configs.filter.FilterConfig required a bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' in your configuration.
+
+[] [32m2024-09-03 15:36:34.003[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 6332 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:36:34.005[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:36:34.041[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:36:34.042[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:36:34.042[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:36:34.042[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:36:35.145[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:36:35.156[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:36:35.159[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:36:35.159[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:36:35.222[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:36:35.224[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1182 ms
+[] [32m2024-09-03 15:36:35.282[0;39m [33m WARN[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'filterConfig': Unsatisfied dependency expressed through field 'tokenFilter': No qualifying bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[] [32m2024-09-03 15:36:35.284[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[] [32m2024-09-03 15:36:35.320[0;39m [32m INFO[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[] [32m2024-09-03 15:36:35.338[0;39m [31mERROR[0;39m [35m6332[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tokenFilter in kr.co.uracle.framework.configs.filter.FilterConfig required a bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'kr.co.uracle.framework.configs.filter.TokenFilter' in your configuration.
+
+[] [32m2024-09-03 15:37:02.377[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 17928 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:37:02.381[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:37:02.453[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:37:02.453[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:37:02.454[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:37:02.454[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:37:03.959[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:37:03.975[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:37:03.979[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:37:03.979[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:37:04.055[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:37:04.056[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1601 ms
+[] [32m2024-09-03 15:37:04.065[0;39m [31mERROR[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.web.embedded.tomcat.TomcatStarter [0;39m [2m:[0;39m Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'customTokenFilter': Injection of autowired dependencies failed
+[] [32m2024-09-03 15:37:04.086[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[] [32m2024-09-03 15:37:04.122[0;39m [33m WARN[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+[] [32m2024-09-03 15:37:04.129[0;39m [32m INFO[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[] [32m2024-09-03 15:37:04.149[0;39m [31mERROR[0;39m [35m17928[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.co.uracle.UracleFrameworkApplication.main(UracleFrameworkApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'customTokenFilter': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'security.token.value' in value "${security.token.value}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 57 common frames omitted
+
+[] [32m2024-09-03 15:41:19.528[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 17496 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:41:19.530[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:41:19.565[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:41:19.565[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:41:19.565[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:41:19.565[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:41:20.679[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:41:20.688[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:41:20.689[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:41:20.690[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:41:20.763[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:41:20.763[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1197 ms
+[] [32m2024-09-03 15:41:20.770[0;39m [31mERROR[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.web.embedded.tomcat.TomcatStarter [0;39m [2m:[0;39m Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'tokenFilter': Injection of autowired dependencies failed
+[] [32m2024-09-03 15:41:20.790[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[] [32m2024-09-03 15:41:20.822[0;39m [33m WARN[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+[] [32m2024-09-03 15:41:20.829[0;39m [32m INFO[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[] [32m2024-09-03 15:41:20.846[0;39m [31mERROR[0;39m [35m17496[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at kr.co.uracle.UracleFrameworkApplication.main(UracleFrameworkApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tokenFilter': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4414)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'security.token.value' in value "${security.token.value}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:508)
+	... 57 common frames omitted
+
+[] [32m2024-09-03 15:42:26.211[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 4708 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:42:26.213[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:42:26.246[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:42:26.246[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:42:26.246[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:42:26.246[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:42:27.397[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:42:27.411[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:42:27.413[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:42:27.413[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:42:27.473[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:42:27.473[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1227 ms
+[] [32m2024-09-03 15:42:30.550[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:42:30.571[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:42:30.589[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:42:30.596[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 4.772 seconds (process running for 5.312)
+[] [32m2024-09-03 15:42:36.036[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:42:36.037[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:42:36.041[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 3 ms
+[] [32m2024-09-03 15:43:46.985[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[] [32m2024-09-03 15:43:46.988[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[       Thread-5][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Stopping ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:43:47.081[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 4708 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:43:47.081[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:43:47.347[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:43:47.347[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:43:47.347[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:43:47.348[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:43:47.366[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:43:47.367[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 285 ms
+[] [32m2024-09-03 15:43:47.587[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:43:47.598[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:43:47.602[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:43:47.605[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 0.552 seconds (process running for 82.32)
+[] [32m2024-09-03 15:43:47.607[0;39m [32m INFO[0;39m [35m4708[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[] [32m2024-09-03 15:47:16.899[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 11688 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:47:16.901[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:47:16.935[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:47:16.936[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:47:16.936[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:47:16.936[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:47:18.021[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:47:18.030[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:47:18.031[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:47:18.031[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:47:18.099[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:47:18.099[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1163 ms
+[] [32m2024-09-03 15:47:18.801[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:47:18.822[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:47:18.840[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:47:18.848[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.337 seconds (process running for 2.827)
+[] [32m2024-09-03 15:47:25.042[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:47:25.042[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:47:25.043[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[c7299c5a-34ac-4068-84fb-824776847fea] [32m2024-09-03 15:47:28.729[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[6786342d-f11e-4ef6-9ee5-8f052abacc34] [32m2024-09-03 15:47:36.721[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[de08d3b7-0574-48a5-a2b7-f9db71570b35] [32m2024-09-03 15:48:24.184[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[734b0d37-2382-420d-989c-82fe61d13ba0] [32m2024-09-03 15:48:30.724[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[c4bd47f1-3cf3-4255-adab-6a93e7699fd3] [32m2024-09-03 15:48:31.764[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[34c4e318-2918-4eba-bb4e-1c06ace7c664] [32m2024-09-03 15:48:32.713[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[70fabaa1-46a2-4a9e-8d4b-8e254b856fde] [32m2024-09-03 15:48:33.523[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[42814ab3-bc8f-4ce4-9649-7ba325269ca2] [32m2024-09-03 15:48:34.187[0;39m [32m INFO[0;39m [35m11688[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음
+[] [32m2024-09-03 15:48:59.772[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 16072 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:48:59.774[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:48:59.809[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:48:59.809[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:48:59.809[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:48:59.809[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:49:00.902[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:49:00.917[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:49:00.919[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:49:00.919[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:49:00.988[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:49:00.988[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1178 ms
+[] [32m2024-09-03 15:49:01.695[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:49:01.717[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:49:01.737[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:49:01.744[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.36 seconds (process running for 2.898)
+[] [32m2024-09-03 15:49:07.784[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:49:07.786[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:49:07.787[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[010a5e25-3285-4c88-ab59-26132e7ead0e] [32m2024-09-03 15:49:07.790[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[b66067df-fbed-482e-ae9f-97c0fabf2f66] [32m2024-09-03 15:49:09.887[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[5b4e92b6-e587-4b7b-904f-3a7309b3193e] [32m2024-09-03 15:49:10.543[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[144c0bb0-4d75-4696-8706-85f8f7e35bd9] [32m2024-09-03 15:49:11.096[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[a25cef21-16b6-4301-b34e-0818d425db80] [32m2024-09-03 15:49:11.643[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[7a00e7dd-07aa-4491-a4b8-3c94f548ef3c] [32m2024-09-03 15:49:25.258[0;39m [33m WARN[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[7a00e7dd-07aa-4491-a4b8-3c94f548ef3c] [32m2024-09-03 15:49:25.277[0;39m [32m INFO[0;39m [35m16072[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]
+[] [32m2024-09-03 15:50:11.129[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 9824 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:50:11.132[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:50:11.187[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:50:11.187[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:50:11.187[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:50:11.187[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:50:12.518[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:50:12.526[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:50:12.527[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:50:12.527[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:50:12.599[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:50:12.599[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1411 ms
+[] [32m2024-09-03 15:50:13.366[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:50:13.403[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:50:13.427[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:50:13.434[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.705 seconds (process running for 3.215)
+[] [32m2024-09-03 15:50:14.932[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:50:14.932[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:50:14.933[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[042eabd1-cca3-4040-9541-165226039718] [32m2024-09-03 15:50:14.980[0;39m [33m WARN[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[042eabd1-cca3-4040-9541-165226039718] [32m2024-09-03 15:50:15.020[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]
+[d2259f40-4886-41f0-ac6d-5e74ee368175] [32m2024-09-03 15:50:20.559[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.configs.filter.TokenFilter      [0;39m [2m:[0;39m Token이 올바르지 않음 [입력받은 토큰 값: null]
+[4fe152ab-d477-4047-a5c2-702d7f8b9420] [32m2024-09-03 15:50:24.196[0;39m [33m WARN[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[4fe152ab-d477-4047-a5c2-702d7f8b9420] [32m2024-09-03 15:50:24.198[0;39m [32m INFO[0;39m [35m9824[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]
+[] [32m2024-09-03 15:52:15.882[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Starting UracleFrameworkApplication using Java 21.0.3 with PID 6884 (C:\Study\cfw-jh_yoon\build\classes\java\main started by yu309 in C:\Study\cfw-jh_yoon)
+[] [32m2024-09-03 15:52:15.885[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m The following 1 profile is active: "local"
+[] [32m2024-09-03 15:52:15.925[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Study\cfw-jh_yoon\libs\orai18n.jar referenced one or more files that do not exist: file:/C:/Study/cfw-jh_yoon/libs/orai18n-mapping.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-utility.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-collation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-translation.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-net.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-servlet.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-lcsd.jar,file:/C:/Study/cfw-jh_yoon/libs/orai18n-tools.jar,file:/C:/Study/cfw-jh_yoon/libs/gdk_custom.jar
+[] [32m2024-09-03 15:52:15.926[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.devtools.restart.ChangeableUrls   [0;39m [2m:[0;39m The Class-Path manifest attribute in C:\Users\yu309\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/yu309/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[] [32m2024-09-03 15:52:15.926[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[] [32m2024-09-03 15:52:15.926[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[] [32m2024-09-03 15:52:17.030[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[] [32m2024-09-03 15:52:17.039[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:52:17.040[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[] [32m2024-09-03 15:52:17.040[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.26]
+[] [32m2024-09-03 15:52:17.111[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[] [32m2024-09-03 15:52:17.111[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1185 ms
+[] [32m2024-09-03 15:52:17.833[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[] [32m2024-09-03 15:52:17.857[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8080"]
+[] [32m2024-09-03 15:52:17.877[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port 8080 (http) with context path '/'
+[] [32m2024-09-03 15:52:17.884[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mk.co.uracle.UracleFrameworkApplication  [0;39m [2m:[0;39m Started UracleFrameworkApplication in 2.412 seconds (process running for 3.081)
+[] [32m2024-09-03 15:52:19.398[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[] [32m2024-09-03 15:52:19.398[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[] [32m2024-09-03 15:52:19.399[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[0a3dcfbf-f19f-4651-906b-2879558a3b04] [32m2024-09-03 15:52:19.441[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.convertor.DecrptionConvertor    [0;39m [2m:[0;39m 복호화 중 오류 발생5 > Input length must be multiple of 16 when decrypting with padded cipher
+[0a3dcfbf-f19f-4651-906b-2879558a3b04] [32m2024-09-03 15:52:19.443[0;39m [33m WARN[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.e.GlobalExceptionHandler        [0;39m [2m:[0;39m 비정상 익셉션 발생 Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]
+[0a3dcfbf-f19f-4651-906b-2879558a3b04] [32m2024-09-03 15:52:19.486[0;39m [32m INFO[0;39m [35m6884[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mk.c.u.f.c.a.c.CommonLoggingAspects      [0;39m [2m:[0;39m ResponseData: ApiResponse [status=9999, message=fail, data=Failed to convert value of type 'java.lang.String' to required type 'java.lang.String'; Failed to convert from type [java.lang.String] to type [@org.springframework.web.bind.annotation.RequestParam @kr.co.uracle.framework.annotations.Decryption java.lang.String] for value [123]]

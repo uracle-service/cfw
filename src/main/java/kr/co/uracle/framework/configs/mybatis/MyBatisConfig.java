@@ -13,11 +13,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
-import kr.co.uracle.framework.model.MyBatisProperties;
 
 @Configuration
 //@MapperScan(value = {"kr.co.uracle.*.mapper"})
-@MapperScan(basePackages="${mybatis.base-packages}")
+@MapperScan(basePackages="kr.co.uracle.*.mapper")
 //@EnableConfigurationProperties(MyBatisProperties.class)
 public class MyBatisConfig {
 
@@ -36,9 +35,9 @@ public class MyBatisConfig {
 //	@Value("${mybatis.base-packages}")	//additional-spring-configuration-metadata 추가.
 //	private String[] basePackages;
 //
-//	@Value("${mybatis.mapper-locations}")
-//	private String mapperLcations;
-	
+	@Value("${mybatis.mapper-locations}")
+	private String mapperLocations;
+	/*
 	private final MyBatisProperties mybatisProp;
 	
 	@Autowired
@@ -48,7 +47,7 @@ public class MyBatisConfig {
 		System.out.println(this.mybatisProp.getMapperLocations());
 		System.out.println(this.mybatisProp.getBasePackages().length);
 		
-	}
+	}*/
 
 	@Bean
 	public DataSource dataSource () {
@@ -66,10 +65,10 @@ public class MyBatisConfig {
 		SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
 		sessionFactory.setDataSource(dataSource);
 
-		System.out.println("[mapperLocation ]==> " + mybatisProp.getMapperLocations());
+		System.out.println("[mapperLocation ]==> " + mapperLocations);
 //		System.out.println("[basePackages ]==> " + String.join(",", mybatisProp.getBasePackages()));
 		// 매퍼 XML 파일 경로 설정
-		sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(mybatisProp.getMapperLocations()));
+		sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(mapperLocations));
 
 //		MapperScannerConfigurer configurer = new MapperScannerConfigurer();
 //		if (mybatisProp == null || mybatisProp.getBasePackages() == null || mybatisProp.getBasePackages().length == 0) {

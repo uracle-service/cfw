@@ -1,4 +1,4 @@
-package kr.co.uracle.framework.configs.aspects;
+package kr.co.uracle.framework.configs.aspects.commonLogging;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -26,15 +26,15 @@ import kr.co.uracle.framework.exception.CommonException;
 
 @Aspect
 @Component
-public class LoggingAspects {
-	//@Pointcut("within(kr.co.uracle.*.controller..*)") //이렇게 쓰면 kr.co.uracle 안에 있는놈만 되니까 아래처럼 어노테이션으로 변경
+public class CommonLoggingAspects {
 	@Pointcut("@annotation(org.springframework.web.bind.annotation.RequestMapping) ||"
 		+ "@annotation(org.springframework.web.bind.annotation.GetMapping)"
 		+ "@annotation(org.springframework.web.bind.annotation.PostMapping)"
 		+ "@annotation(org.springframework.web.bind.annotation.PutMapping)"
 		+ "@annotation(org.springframework.web.bind.annotation.DeleteMapping)"
 	)
-	public void onRequest () {}
+	public void onRequest () {
+	}
 
 	@Around("onRequest()")
 	public Object commonLogEvent (ProceedingJoinPoint joinPoint) throws Throwable {
@@ -63,6 +63,7 @@ public class LoggingAspects {
 			throw e;
 		}
 		catch (Exception e) {
+
 			long endTime = System.currentTimeMillis();
 			long timeInMs = endTime - startTime;
 
@@ -70,6 +71,7 @@ public class LoggingAspects {
 						 httpServletRequest.getMethod(), httpServletRequest.getRequestURI(),
 						 parameters, e.getMessage(), result, timeInMs);
 			throw e;
+
 		}
 		finally {
 			long endTime = System.currentTimeMillis();
@@ -109,9 +111,9 @@ public class LoggingAspects {
 	}
 
 	@AfterReturning(pointcut = "execution(* org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.beforeBodyWrite(..))"
-		,returning = "responseBody")
-	public void responseBodyLogging(Object responseBody){
+		, returning = "responseBody")
+	public void responseBodyLogging (Object responseBody) {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
-		logger.info("ResponseData: {}", responseBody); // 왜 두번찍히지 ?
+		logger.info("ResponseData: {}", responseBody);
 	}
 }

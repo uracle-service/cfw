@@ -1,3 +1,4 @@
+/*
 package kr.co.uracle.framework.model;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -24,3 +25,4 @@ public class MyBatisProperties {
 	}
 
 }
+*/
