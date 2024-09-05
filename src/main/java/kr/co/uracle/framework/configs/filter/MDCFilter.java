@@ -15,7 +15,6 @@ import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpServletRequest;
 
-@Component
 public class MDCFilter implements Filter {
 	private static final String URACLE_TRACE_ID = "URACLE-TRACE-ID";
 

@@ -20,7 +20,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import kr.co.uracle.framework.model.ApiResponse;
 
-@Component("customTokenFilter")
+//@Component("customTokenFilter")
 public class TokenFilter implements Filter{
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

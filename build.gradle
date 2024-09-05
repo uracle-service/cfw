@@ -58,7 +58,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-
+/*
 // 환경별 JAR 빌드 설정 
 task buildJar(type: Jar) {
     group = 'build'
@@ -88,7 +88,7 @@ task buildJar(type: Jar) {
     // Handle duplicate entries
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE	//중복된 파일 제거.
 }
-
+*/
 jar{
     enabled = true
 }
