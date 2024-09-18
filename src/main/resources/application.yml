@@ -35,6 +35,14 @@ commons:
     customTokenFilter:
       enable: true #Header 내 Token 정보 체크
 
+    headerFilter:
+      enable: true #헤더 필터
+      urlPattern: "/api/*"
+      headerName:
+        - "header1"
+        - "header2"
+        - "header3"
+
   aop:
     logging:
       enable: true #AOP 기본 로그 설정 true / false

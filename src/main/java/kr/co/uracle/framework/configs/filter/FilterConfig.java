@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 
 @Configuration
 public class FilterConfig {
@@ -29,8 +28,6 @@ public class FilterConfig {
 	@Lazy
     private TokenFilter tokenFilter;
 */
-    //@Autowired
-    //private HeaderFilter headerFilter;
 
 	@Bean
 	@ConditionalOnProperty(value = "commons.filter.mdc.enable", havingValue = "true", matchIfMissing = false)
@@ -65,14 +62,21 @@ public class FilterConfig {
         return registrationBean;
     }
 
-    //@Bean
-    //public FilterRegistrationBean<HeaderFilter> headerFilterRegistration() {
-    //    FilterRegistrationBean<HeaderFilter> registrationBean = new FilterRegistrationBean<>();
-    //    registrationBean.setFilter(headerFilter);
-    //    registrationBean.addUrlPatterns(headerUrlFilter); // Apply filter to all URLs or specific URLs
-    //    registrationBean.setOrder(2); // Set order for execution
-    //    return registrationBean;
-    //}
+	@Bean
+	@ConditionalOnProperty(value = "commons.filter.headerFilter.enable", havingValue = "true", matchIfMissing = false)
+	public HeaderFilter headerFilter() {
+		return new HeaderFilter();
+	}
+	
+    @Bean
+	@ConditionalOnProperty(value = "commons.filter.headerFilter.enable", havingValue = "true", matchIfMissing = false)
+    public FilterRegistrationBean<HeaderFilter> headerFilterRegistration(HeaderFilter headerFilter) {
+        FilterRegistrationBean<HeaderFilter> registrationBean = new FilterRegistrationBean<>();
+        registrationBean.setFilter(headerFilter);
+        registrationBean.addUrlPatterns(headerUrlFilter); // Apply filter to all URLs or specific URLs
+        registrationBean.setOrder(2); // Set order for execution
+        return registrationBean;
+    }
 	
 	
 }

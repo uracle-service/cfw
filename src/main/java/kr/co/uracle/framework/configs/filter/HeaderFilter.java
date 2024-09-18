@@ -1,150 +1,83 @@
-/*
+
 package kr.co.uracle.framework.configs.filter;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.List;
-import java.util.UUID;
 
-import org.slf4j.MDC;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
+import jakarta.servlet.FilterConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletRequestWrapper;
 import jakarta.servlet.http.HttpServletResponse;
 
-@Component("customHeaderFilter")
 public class HeaderFilter implements Filter {
-	@Autowired
-	private HeaderConfig headerConfig;
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-	@Value("${headerfilter.decyptionMethod}")
-	private String decyptionMethod;
+	@Value("${commons.filter.headerFilter.headerName}")
+    private List<String> customHeader;
 
-	private final List<String> headerMapping = new ArrayList<>();
-
-	public void init (HeaderConfig headerConfig) throws ServletException {
+	@Override
+	public void init (FilterConfig filterConfig) throws ServletException {
 		//init
 	}
 
-	public HeaderFilter (HeaderConfig headerConfig) {
-		this.headerConfig = headerConfig;
-
-		List<String> decryptionHeaders = headerConfig.getDecyptionHeaders();
-
-		if (decryptionHeaders != null) {
-			for (String mapping : decryptionHeaders) {
-				headerMapping.add(mapping);
-			}
-		}
-
-	}
-
 	@Override
-	public void doFilter (ServletRequest request, ServletResponse response, FilterChain chain)
-		throws IOException, ServletException {
-
+	public void doFilter (ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		HttpServletRequest httpRequest = (HttpServletRequest) request;
 		HttpServletResponse httpResponse = (HttpServletResponse) response;
-
-		//요청 해더 조작
-		HttpServletRequestWrapper requestWrapper = createRequestWrapper(httpRequest);
-
-		//헤더로깅.
-		logRequestHeaders(requestWrapper);
-		chain.doFilter(requestWrapper, response);
-
+		
+//		//헤더로깅.
+		logRequestHeaders(httpRequest);
+		
+		chain.doFilter(httpRequest, response);
 
 	}
 
 	private void logRequestHeaders (HttpServletRequest request) {
 		Enumeration<String> headerNames = request.getHeaderNames();
-		System.out.println("---------------------Request Header------------------------");
-		while (headerNames.hasMoreElements()) {
-			String headerName = headerNames.nextElement();
-			Enumeration<String> headers = request.getHeaders(headerName);
-
-			while (headers.hasMoreElements()) {
-				String headerValue = headers.nextElement();
-				System.out.println("[headerInfo]" + headerName + " => " + headerValue);
+		HashMap<String, String> headerLogging = new HashMap<>();
+		
+		if(customHeader.size() > 0) {
+			while (headerNames.hasMoreElements()) {
+				String headerName = headerNames.nextElement();
+				Enumeration<String> headers = request.getHeaders(headerName);
+				
+				if(isHeaderNamePresent(headerName)) {
+					while (headers.hasMoreElements()) {
+						String headerValue = headers.nextElement();
+						headerLogging.put(headerName, headerValue);
+					}
+				}
 			}
+			
+			// headerName에 설정된 값이 있을 경우 logging처리. 
+			if(headerLogging.size()>0) {
+				logger.info("---------------------Request Header------------------------");
+				logger.info("요청 헤더 값 : {}", headerLogging.toString());
+				logger.info("-----------------------------------------------------------");
+			}
+			
 		}
-		System.out.println("-----------------------------------------------------------");
 	}
-
-	private HttpServletRequestWrapper createRequestWrapper (HttpServletRequest orgRequest) {
-		return new HttpServletRequestWrapper(orgRequest) {
-
-			@Override
-			public String getHeader (String name) {
-				String headerValue = super.getHeader(name);
-				String decryptionMethod = decyptionMethod;
-
-				if (decryptionMethod != null && headerValue != null && headerMapping.contains(name)) {
-					//복호화 서비스
-					try {
-						return aesUtil.decrypt(headerValue);
-					}
-					catch (Exception e) {
-						e.printStackTrace();
-					}
-				}
-
-				return headerValue;
-			}
-
-			@Override
-			public Enumeration<String> getHeaders (String name) {
-				String headerValue = super.getHeader(name);
-				String decryptionMethod = decyptionMethod;
-
-				if (decryptionMethod != null && headerValue != null && headerMapping.contains(name)) {
-					try {
-						return createEnumeration(aesUtil.decrypt(headerValue));
-					}
-					catch (Exception e) {
-						e.printStackTrace();
-					}
-				}
-				return super.getHeaders(name);
-			}
-
-			@Override
-			public Enumeration<String> getHeaderNames () {
-				return super.getHeaderNames();
-			}
-
-			private Enumeration<String> createEnumeration (String headerValue) {
-				return new Enumeration<>() {
-					private boolean hasMore = true;
-
-					@Override
-					public boolean hasMoreElements () {
-						return hasMore;
-					}
-
-					@Override
-					public String nextElement () {
-						if (hasMore) {
-							hasMore = false;
-							return headerValue;
-						}
-						throw new java.util.NoSuchElementException();
-					}
-				};
-			}
-
-		};
+	
+	//설정된 로깅에 있는지 여부 체크
+	public boolean isHeaderNamePresent(String headerName) {
+        return customHeader.contains(headerName);
+    }
+	
+	@Override
+	public void destroy () {
+		//Filter.super.destroy();
 	}
 
 }
-*/
+

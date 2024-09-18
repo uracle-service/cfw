@@ -40,12 +40,7 @@ commons:
     headerFilter:
       enable: true
       urlPattern: "/api/*"
-      decryption:
-        method: "AES"
-        targets:
-          - "header1"
-          - "header2"
-          - "header3"
+      headerName: "header1,header2,header3"
 
   aop:
     logging:
