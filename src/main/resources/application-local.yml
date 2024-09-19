@@ -24,7 +24,6 @@ mybatis:
   mapper-locations: classpath:/mappers/**/*.xml
   base-packages: "kr.co.uracle.*.mapper"
 
-
 commons:
   filter:
     mdc:
@@ -38,7 +37,7 @@ commons:
         value: "token1"
 
     headerFilter:
-      enable: true
+      enable: false #Header Logging 정보 체크
       urlPattern: "/api/*"
       headerName: "header1,header2,header3"
 

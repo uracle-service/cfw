@@ -13,9 +13,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 
 @Configuration
-//@MapperScan(value = {"kr.co.uracle.*.mapper"})
-@MapperScan(basePackages="kr.co.uracle.*.mapper")
-//@EnableConfigurationProperties(MyBatisProperties.class)
+@MapperScan(basePackages="${mybatis.base-packages}")
 public class MyBatisConfig {
 
 	@Value("${spring.datasource.url}")
@@ -30,22 +28,8 @@ public class MyBatisConfig {
 	@Value("${spring.datasource.driver-class-name}")
 	private String dbDriverClassName;
 
-//	@Value("${mybatis.base-packages}")	//additional-spring-configuration-metadata 추가.
-//	private String[] basePackages;
-//
 	@Value("${mybatis.mapper-locations}")
 	private String mapperLocations;
-	/*
-	private final MyBatisProperties mybatisProp;
-	
-	@Autowired
-	public MyBatisConfig(MyBatisProperties mybatisProp) {
-		this.mybatisProp = mybatisProp;
-		
-		System.out.println(this.mybatisProp.getMapperLocations());
-		System.out.println(this.mybatisProp.getBasePackages().length);
-		
-	}*/
 
 	@Bean
 	public DataSource dataSource () {
@@ -63,36 +47,14 @@ public class MyBatisConfig {
 		SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
 		sessionFactory.setDataSource(dataSource);
 
-		System.out.println("[mapperLocation ]==> " + mapperLocations);
-//		System.out.println("[basePackages ]==> " + String.join(",", mybatisProp.getBasePackages()));
+		// logging 설정
+//		sessionFactory.getObject().getConfiguration().setLogImpl(Slf4jImpl.class);
+		
 		// 매퍼 XML 파일 경로 설정
 		sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(mapperLocations));
-
-//		MapperScannerConfigurer configurer = new MapperScannerConfigurer();
-//		if (mybatisProp == null || mybatisProp.getBasePackages() == null || mybatisProp.getBasePackages().length == 0) {
-//			throw new IllegalArgumentException("Base packages must not be null or empty");
-//		}
-//	
-//		configurer.setBasePackage(String.join(",", mybatisProp.getBasePackages()));	// 다중 설정 가능.
 		
 		return sessionFactory.getObject();
 	}
-
-
-//	@Bean
-//	public MapperScannerConfigurer mapperScannerConfigurer() {
-//		
-//		MapperScannerConfigurer configurer = new MapperScannerConfigurer();
-//		
-//		if (mybatisProp == null || mybatisProp.getBasePackages() == null || mybatisProp.getBasePackages().length == 0) {
-//			throw new IllegalArgumentException("Base packages must not be null or empty");
-//	    }
-//		
-//		configurer.setBasePackage(String.join(",", mybatisProp.getBasePackages()));	// 다중 설정 가능.
-//		
-//		System.out.println(String.join(",", mybatisProp.getBasePackages()));
-//		return configurer;
-//	}
 	
 
 //	@Bean
