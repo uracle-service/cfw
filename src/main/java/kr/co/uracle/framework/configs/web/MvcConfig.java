@@ -1,8 +1,15 @@
 package kr.co.uracle.framework.configs.web;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.xml.AbstractXmlHttpMessageConverter;
+import org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -15,15 +22,6 @@ import kr.co.uracle.framework.convertor.DecrptionConvertor;
 @Configuration
 @EnableWebMvc
 public class MvcConfig implements WebMvcConfigurer {
-/*
-	@Bean
-	public ViewResolver viewResolver(){
-		InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-		viewResolver.setPrefix("/WEB-INF/views/");
-		viewResolver.setSuffix(".jsp");
-		return viewResolver;
-	}
-*/
 	@Override
 	public void configureViewResolvers (ViewResolverRegistry registry) {
 		registry.jsp("/WEB-INF/views/", ".jsp");
@@ -61,5 +59,24 @@ public class MvcConfig implements WebMvcConfigurer {
 	@Override
 	public void addFormatters (FormatterRegistry registry) {
 		registry.addConverter(new DecrptionConvertor());
+	}
+
+	@Override
+	public void extendMessageConverters (List<HttpMessageConverter<?>> converters) {
+		reorderXmlConvertersToEnd(converters); //XML 컨버터 최 하위 설정
+	}
+
+	private void reorderXmlConvertersToEnd(List<HttpMessageConverter<?>> converters) {
+		List<HttpMessageConverter<?>> xml = new ArrayList<>();
+		for (Iterator<HttpMessageConverter<?>> iterator =
+			 converters.iterator(); iterator.hasNext();) {
+			HttpMessageConverter<?> converter = iterator.next();
+			if ((converter instanceof AbstractXmlHttpMessageConverter<?>)
+				|| (converter instanceof MappingJackson2XmlHttpMessageConverter)) {
+				xml.add(converter);
+				iterator.remove();
+			}
+		}
+		converters.addAll(xml);
 	}
 }

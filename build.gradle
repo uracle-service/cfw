@@ -3,8 +3,6 @@ plugins {
     id 'org.springframework.boot' version '3.3.2'
     id 'io.spring.dependency-management' version '1.1.6'
     id 'war'
-
-    id 'com.github.johnrengelman.shadow' version '8.1.1' // Shadow 플러그인 추가
 }
 
 group = 'kr.co.uracle'
@@ -37,13 +35,6 @@ dependencies {
     // Jakarta Servlet API
     implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
 
-    // JSTL API 및 구현체
-    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0'
-    implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0'
-
-    // Tomcat의 EL 구현체
-    implementation 'org.apache.tomcat.embed:tomcat-embed-el'
-
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'	//Mybatis 3.1.1을 사용.
     implementation 'org.mybatis:mybatis:3.5.12' // 호환되는 최신 버전
     implementation 'com.oracle.database.jdbc:ojdbc8'	//ojdbc8
@@ -61,37 +52,6 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-/*
-// 환경별 JAR 빌드 설정 
-task buildJar(type: Jar) {
-    group = 'build'
-    description = 'Builds a JAR with the specified profile'
-    
-    archiveBaseName.set('cfw') // JAR 파일의 이름
-    archiveVersion.set('1.0.0') // JAR 파일의 버전
-//    manifest {
-//        attributes(
-//            'Implementation-Title': 'cfw',
-//            'Implementation-Version': version
-//        )
-//    }
-    
-    from sourceSets.main.output
-    configurations.runtimeClasspath.each { file ->
-        from zipTree(file)
-    }
-    
-    // Example of excluding signature files
-    exclude 'META-INF/*.SF'
-    exclude 'META-INF/*.DSA'
-    exclude 'META-INF/*.RSA'
-    
-    with jar
-    
-    // Handle duplicate entries
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE	//중복된 파일 제거.
-}
-*/
 jar{
     enabled = true
 }
@@ -100,12 +60,6 @@ bootJar{
     enabled = false
 }
 
-shadowJar {
-    archiveBaseName.set('cfw') // 생성될 JAR 파일의 이름 지정
-    archiveVersion.set('1.0.0') // JAR 파일의 버전 지정
-    mergeServiceFiles() // 서비스 파일 병합
+tasks.named('test') {
+    useJUnitPlatform()
 }
-
-//tasks.named('test') {
-//    useJUnitPlatform()
-//}
