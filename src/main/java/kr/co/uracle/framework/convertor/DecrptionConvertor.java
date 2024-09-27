@@ -1,7 +1,12 @@
 package kr.co.uracle.framework.convertor;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.core.convert.converter.ConditionalGenericConverter;
@@ -13,6 +18,8 @@ import kr.co.uracle.framework.utils.cryptography.Cryptography;
 
 @Component
 public class DecrptionConvertor implements ConditionalGenericConverter {
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
 	@Autowired
 	WebApplicationContext context;
 
@@ -28,15 +35,38 @@ public class DecrptionConvertor implements ConditionalGenericConverter {
 
 	@Override
 	public Object convert (Object source, TypeDescriptor sourceType, TypeDescriptor targetType) {
-		Cryptography cryptography = (Cryptography) context.getBean(targetType.getAnnotation(Decryption.class).type());
+		Decryption decryption = targetType.getAnnotation(Decryption.class);
+		if( null != decryption ){
+			try {
+				Class<?> clazz = decryption.type();
+				Constructor<?> constructor = clazz.getConstructor(String.class);
 
-		try {
-			return cryptography.decrypt((String) source);
+				Cryptography decClass = (Cryptography) constructor.newInstance(decryption.algorithm());
+				return decClass.decrypt(decryption.key(), decryption.iv(), source.toString());
+			}
+			catch (NoSuchMethodException e) {
+				logger.info("복호화 중 오류 발생1 > " + e.getMessage());
+				throw new RuntimeException(e);
+			}
+			catch (InvocationTargetException e) {
+				logger.info("복호화 중 오류 발생2 > " + e.getMessage());
+				throw new RuntimeException(e);
+			}
+			catch (InstantiationException e) {
+				logger.info("복호화 중 오류 발생3 > " + e.getMessage());
+				throw new RuntimeException(e);
+			}
+			catch (IllegalAccessException e) {
+				logger.info("복호화 중 오류 발생4 > " + e.getMessage());
+				throw new RuntimeException(e);
+			}
+			catch (Exception e) {
+				logger.info("복호화 중 오류 발생5 > " + e.getMessage());
+				throw new RuntimeException(e);
+			}
 		}
-		catch (Exception e) {
-			e.printStackTrace();
-			//throw new CommonException("ERROR_CODE_001", "복호화 중 오류 발생");
+		else{
+			return source;
 		}
-		return source;
 	}
 }

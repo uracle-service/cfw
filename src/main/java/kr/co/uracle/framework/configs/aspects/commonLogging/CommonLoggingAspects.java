@@ -1,19 +1,18 @@
-package kr.co.uracle.framework.configs.aspects;
+package kr.co.uracle.framework.configs.aspects.commonLogging;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.MDC;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -27,14 +26,18 @@ import kr.co.uracle.framework.exception.CommonException;
 
 @Aspect
 @Component
-public class LoggingAspects {
-	@Pointcut("within(kr.co.uracle.*.controller..*)")
-	public void onRequest () {}
+public class CommonLoggingAspects {
+	@Pointcut("@annotation(org.springframework.web.bind.annotation.RequestMapping) ||"
+		+ "@annotation(org.springframework.web.bind.annotation.GetMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.PostMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.PutMapping)"
+		+ "@annotation(org.springframework.web.bind.annotation.DeleteMapping)"
+	)
+	public void onRequest () {
+	}
 
 	@Around("onRequest()")
 	public Object commonLogEvent (ProceedingJoinPoint joinPoint) throws Throwable {
-		MDC.put("traceId", UUID.randomUUID().toString());
-
 		HttpServletRequest httpServletRequest = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
 
 		Class clazz = joinPoint.getTarget()
@@ -60,13 +63,16 @@ public class LoggingAspects {
 			throw e;
 		}
 		catch (Exception e) {
+
 			long endTime = System.currentTimeMillis();
 			long timeInMs = endTime - startTime;
-
 			logger.error("[{} {}] | request: {} | exception: {} | response: {} | time: {} ms",
 						 httpServletRequest.getMethod(), httpServletRequest.getRequestURI(),
 						 parameters, e.getMessage(), result, timeInMs);
+			logger.error("User-Agent: {}", userAgent);
+
 			throw e;
+
 		}
 		finally {
 			long endTime = System.currentTimeMillis();
@@ -76,8 +82,6 @@ public class LoggingAspects {
 							httpServletRequest.getMethod(), httpServletRequest.getRequestURI(),
 							parameters, result, timeInMs);
 			}
-
-			MDC.clear();
 		}
 	}
 
@@ -105,5 +109,12 @@ public class LoggingAspects {
 		else {
 			return parameters;
 		}
+	}
+
+	@AfterReturning(pointcut = "execution(* org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice.beforeBodyWrite(..))"
+		, returning = "responseBody")
+	public void responseBodyLogging (Object responseBody) {
+		Logger logger = LoggerFactory.getLogger(this.getClass());
+		logger.info("ResponseData: {}", responseBody);
 	}
 }

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.method.HandlerMethod;
+import org.springframework.web.servlet.NoHandlerFoundException;
 
 import jakarta.servlet.http.HttpServletRequest;
 import kr.co.uracle.framework.model.ApiResponse;
@@ -19,11 +20,16 @@ import kr.co.uracle.framework.model.ApiResponse;
 public class GlobalExceptionHandler {
 	private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
+	@ExceptionHandler(NoHandlerFoundException.class)
+	@ResponseStatus(HttpStatus.NOT_FOUND)
+	public Object handle404(NoHandlerFoundException e, HttpServletRequest request) {
+		return handleException(e, request);
+	}
+
 	@ExceptionHandler(CommonException.class)
 	@ResponseStatus(HttpStatus.OK)
 	public Object CommonException (CommonException e, HttpServletRequest request) {
 		logger.warn("의도한 익셉션 발생 {}", e.getMessage());
-		System.out.println("CommonException");
 		return handleException(e, request);
 	}
 	
@@ -31,7 +37,6 @@ public class GlobalExceptionHandler {
 	@ResponseStatus(HttpStatus.OK)
 	public Object OtherException (Exception e, HttpServletRequest request) {
 		logger.warn("비정상 익셉션 발생 {}", e.getMessage());
-		System.out.println("OtherException");
 		return handleException(e, request);
 	}
 	
@@ -40,7 +45,6 @@ public class GlobalExceptionHandler {
 		HandlerMethod handlerMethod = (HandlerMethod) request.getAttribute("org.springframework.web.servlet.HandlerMapping.bestMatchingHandler");
 				
 		if(handlerMethod != null) {
-			
 			boolean isRestController = AnnotationUtils.findAnnotation(handlerMethod.getBeanType(), RestController.class) != null
                 || AnnotationUtils.findAnnotation(handlerMethod.getMethod(), ResponseBody.class) != null;
 			
@@ -49,13 +53,10 @@ public class GlobalExceptionHandler {
             	ApiResponse apiResponse = new ApiResponse("9999","fail", e.getMessage());
             	return new ResponseEntity<>(apiResponse, HttpStatus.INTERNAL_SERVER_ERROR);
 			}
-			
 		}
 		
 		//기본적으로  MVC Error 응답처리.
 		request.setAttribute("errorMessage", e.getMessage());
         return "errors/commonError";
 	}
-
-
 }

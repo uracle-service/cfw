@@ -8,7 +8,14 @@
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>[%X{TrauceId: traceId:-}] ${CONSOLE_LOG_PATTERN}</pattern>
+            <pattern>[%X{URACLE-TRACE-ID:-}] ${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>${CONSOLE_LOG_CHARSET}</charset>
+        </encoder>
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/catalina.out</file>
+        <encoder>
+            <pattern>[%X{URACLE-TRACE-ID:-}] ${CONSOLE_LOG_PATTERN}</pattern>
             <charset>${CONSOLE_LOG_CHARSET}</charset>
         </encoder>
     </appender>

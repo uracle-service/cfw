@@ -2,10 +2,11 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '3.3.2'
     id 'io.spring.dependency-management' version '1.1.6'
+    id 'war'
 }
 
 group = 'kr.co.uracle'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2'
 
 java {
     toolchain {
@@ -28,68 +29,38 @@ dependencies {
     // AOP 설정을 위한 dependency
     implementation 'org.springframework.boot:spring-boot-starter-aop'
 
-    // JSP 설정을 위한 dependency
+    // JSP 파일을 처리하기 위한 Tomcat Jasper
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0' //스프링부트 3.0 이상
-    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0' //스프링부트 3.0 이상
-    implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1' //Error 스프링부트 3.0 이상
+
+    // Jakarta Servlet API
+    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'	//Mybatis 3.1.1을 사용.
     implementation 'org.mybatis:mybatis:3.5.12' // 호환되는 최신 버전
     implementation 'com.oracle.database.jdbc:ojdbc8'	//ojdbc8
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
-    implementation 'org.apache.taglibs:taglibs-standard-impl:1.2.5'
-	implementation 'org.apache.taglibs:taglibs-standard-spec:1.2.5'
     implementation files('libs/orai18n.jar')
 
+    // Swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+    
+    //Xml 응답
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.0' // XML 처리
+	
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-
-// 환경별 JAR 빌드 설정 
-task buildJar(type: Jar) {
-    group = 'build'
-    description = 'Builds a JAR with the specified profile'
-    
-    archiveBaseName.set('cfw') // JAR 파일의 이름
-    archiveVersion.set('1.0.0') // JAR 파일의 버전
-//    manifest {
-//        attributes(
-//            'Implementation-Title': 'cfw',
-//            'Implementation-Version': version
-//        )
-//    }
-    
-    from sourceSets.main.output
-    configurations.runtimeClasspath.each { file ->
-        from zipTree(file)
-    }
-    
-    // Example of excluding signature files
-    exclude 'META-INF/*.SF'
-    exclude 'META-INF/*.DSA'
-    exclude 'META-INF/*.RSA'
-    
-    with jar
-    
-    // Handle duplicate entries
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE	//중복된 파일 제거.
+jar{
+    enabled = true
+    archiveFileName = "CFW-${version}.jar";
 }
 
+bootJar{
+    enabled = false
+}
 
-//jar {
-//    archiveBaseName.set('cfw') // JAR 파일의 이름
-//    archiveVersion.set('1.0.0') // JAR 파일의 버전
-//    manifest {
-//        attributes(
-//            'Implementation-Title': 'cfw',
-//            'Implementation-Version': version
-//        )
-//    }
-//}
-
-//tasks.named('test') {
-//    useJUnitPlatform()
-//}
+tasks.named('test') {
+    useJUnitPlatform()
+}

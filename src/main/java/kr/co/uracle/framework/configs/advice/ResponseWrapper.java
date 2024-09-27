@@ -2,6 +2,8 @@ package kr.co.uracle.framework.configs.advice;
 
 import java.lang.reflect.Method;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -12,10 +14,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
+import kr.co.uracle.framework.exception.GlobalExceptionHandler;
 import kr.co.uracle.framework.model.ApiResponse;
 
 @ControllerAdvice
 public class ResponseWrapper implements ResponseBodyAdvice<Object> {
+	private static final Logger logger = LoggerFactory.getLogger(ResponseWrapper.class);
 
 	@Override
     public boolean supports(MethodParameter returnType, Class<? extends HttpMessageConverter<?>> converterType) {
@@ -37,8 +41,8 @@ public class ResponseWrapper implements ResponseBodyAdvice<Object> {
 		
 		//@RestController class 거나, Method가 ResponseBody 일 경우 Json으로 응답.
 		boolean isRestController = (returnType.getDeclaringClass().isAnnotationPresent(RestController.class) || method.isAnnotationPresent(ResponseBody.class));
-		
-//		System.out.println("isRestController ==> " + isRestController);
+
+		 logger.debug("isRestController ==> {}", isRestController);
 		
 		if(isRestController) {
 
