@@ -1,27 +1,12 @@
 package kr.co.uracle.framework.exception;
 
-public class CommonException extends Exception {
-	private final String code;
-	private final String msg;
+public class CommonException extends RuntimeException {
+	private final int errorCode;
+	private final String errorMessage;
 
-	public CommonException (String code, String msg) {
-		this.code = code;
-		this.msg = msg;
-	}
-
-	public String getCode () {
-		return code;
-	}
-
-	public String getMsg () {
-		return msg;
-	}
-
-	@Override
-	public String toString () {
-		return "CommonException{" +
-			"code='" + code + '\'' +
-			", msg='" + msg + '\'' +
-			'}';
+	public CommonException(final int errorCode, final String errorMessage) {
+		super(errorMessage);
+		this.errorCode = errorCode;
+		this.errorMessage = errorMessage;
 	}
 }

@@ -66,10 +66,11 @@ public class CommonLoggingAspects {
 
 			long endTime = System.currentTimeMillis();
 			long timeInMs = endTime - startTime;
-
 			logger.error("[{} {}] | request: {} | exception: {} | response: {} | time: {} ms",
 						 httpServletRequest.getMethod(), httpServletRequest.getRequestURI(),
 						 parameters, e.getMessage(), result, timeInMs);
+			logger.error("User-Agent: {}", userAgent);
+
 			throw e;
 
 		}
