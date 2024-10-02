@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  kr.co.uracle.framework.configs.aspects.commonLogging.CommonLoggingAspectsConfig,\
+  kr.co.uracle.framework.configs.mybatis.MyBatisConfig,\
+  kr.co.uracle.framework.configs.web.MvcConfig,\
+  kr.co.uracle.framework.configs.filter.FilterConfig

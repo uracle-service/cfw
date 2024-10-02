@@ -87,6 +87,7 @@ public class CommonLoggingAspects {
 
 	private Object parameterConvert (HttpServletRequest httpServletRequest, JoinPoint joinPoint) throws
 		JsonProcessingException {
+
 		String contentType = httpServletRequest.getHeader("Content-Type");
 
 		String[] parameterName = ((MethodSignature) joinPoint.getSignature()).getParameterNames();
@@ -95,10 +96,20 @@ public class CommonLoggingAspects {
 		Map<String, Object> parameters = new HashMap<>();
 		for (int i = 0; i < args.length; i++) {
 			if (args[i] instanceof Object[]) {
-				parameters.put(parameterName[i], Arrays.deepToString((Object[]) args[i]));
+				if( null != parameterName ){
+					parameters.put(parameterName[i], Arrays.deepToString((Object[]) args[i]));
+				}
+				else{
+					parameters.put(i + "", Arrays.deepToString((Object[]) args[i]));
+				}
 			}
 			else {
-				parameters.put(parameterName[i], args[i]);
+				if( null != parameterName ){
+					parameters.put(parameterName[i], args[i]);
+				}
+				else{
+					parameters.put(i + "", args[i]);
+				}
 			}
 		}
 
